@@ -8,8 +8,20 @@ int main()
     {
         for(int j=1; j<=n; j++)
         {
-            scanf("%d", &a[j][i]);
+            int x;
+            scanf("%d", &x);
+            a[x][i]=j;
         }
     }
-    
+    for(int j=2; j<=5; j++)
+    {
+        for(int i=1; i<=n; i++)
+        {
+            if(a[i][j]!=a[i][j-1])
+            {
+                =i
+            }
+        }
+    }
+    a[x][1]
 }
